@@ -20,12 +20,12 @@ requirements:
     - python >=3.6
     - poetry >=1.1.0
   run:
-    - tape_proteins >=0.4,<=1.0
-    - python-lmdb >=1.0,<2.0
-    - numpy >=1.19,<2.0
+    - tape_proteins >=0.4
+    - python-lmdb >=1.0
+    - numpy >=1.19
     - python >=3.6
-    - scipy >=1.5,<2.0
-    - pytorch >=1.0,<2.0
+    - scipy >=1.5
+    - pytorch >=1.0
 
 test:
   imports:
